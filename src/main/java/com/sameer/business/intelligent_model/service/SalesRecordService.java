@@ -21,23 +21,4 @@ public class SalesRecordService {
         return repository.findAll();
     }
 
-    public Double getTotalRevenue() {
-        return repository.getTotalRevenue();
-    }
-
-    public Double getTotalProfit() {
-        return repository.getTotalProfit();
-    }
-
-    public String getTopProduct() {
-        return repository.getTopProduct();
-    }
-
-    public String getTopCategory() {
-        return repository.getTopCategory();
-    }
-
-    public Long getTotalRecords() {
-        return repository.count();
-    }
 }
